@@ -1,0 +1,34 @@
+name: BlockplacerExtended
+version: '1.0-SNAPSHOT'
+main: niklas.blockplacerextended.BlockplacerExtended
+api-version: '1.20'
+commands:
+  MauerE:
+    description: 'Erstellt eine Mauer'
+    usage: '/MauerE'
+    aliases: [m]
+  QuaderE:
+    description: 'Erstellt einen Quader'
+    usage: '/QuaderE'
+    aliases: [q]
+  KreisE:
+    description: 'Erstellt einen Kreis'
+    usage: '/KreisE'
+  ZylinderE:
+    description: 'Erstellt einen Zylinder'
+    usage: '/ZylinderE'
+  KugelE:
+    description: 'Erstellt eine Kugel'
+    usage: '/KugelE'
+  PyramideE:
+    description: 'Erstellt eine Pyramide'
+    usage: '/PyramideE'
+  test:
+    description: 'Testbefehl'
+    usage: '/test'
+  test2:
+    description: 'Testbefehl'
+    usage: '/test2'
+
+
+
